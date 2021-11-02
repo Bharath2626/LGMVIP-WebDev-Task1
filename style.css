@@ -1,0 +1,637 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #355169;
+}
+.main {
+  margin-left: 200px;
+}
+.main-container {
+  margin: 180px;
+  margin-top: 50px;
+  background-color: rgba(49, 66, 94, 255);
+  width: 1300px;
+  height: 680px;
+}
+
+#zipp {
+  position: relative;
+  left: 200px;
+  top: 50px;
+  color: white;
+}
+.header {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  flex-basis: 20px;
+}
+.header li {
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  top: 10px;
+  right: 100px;
+  color: white;
+  justify-content: space-between;
+}
+#HOME {
+  color: yellow;
+}
+.one {
+  position: relative;
+  left: 200px;
+  top: 100px;
+  color: white;
+}
+.p1 {
+  position: relative;
+  left: 200px;
+  top: 140px;
+  color: #d6e3ef;
+  width: 400px;
+}
+.btn {
+  display: flex;
+  position: relative;
+  left: 200px;
+  top: 170px;
+  /* padding: 20px; */
+}
+button {
+  width: 150px;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.b1 {
+  background-color: yellow;
+  color: black;
+}
+.b2 {
+  background-color: #63487c;
+  color: white;
+}
+span {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 20px;
+  background-color: #5f5b5b;
+  margin-top: 400px;
+}
+.dots {
+  margin-left: 200px;
+}
+span:nth-child(2) {
+  background-color: white;
+}
+.second {
+  width: 1300px;
+  height: 850px;
+  background-color: white;
+  margin-top: 40px;
+}
+.sw {
+  text-align: center;
+  position: relative;
+  top: 60px;
+
+  font-family: sans-serif;
+}
+.sp {
+  margin-top: 150px;
+  width: 350px;
+  margin-left: 320px;
+  font-size: 20px;
+  color: #909090;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 120px;
+  left: 50px;
+}
+.set1 {
+  display: flex;
+}
+.main-box {
+  display: flex;
+  width: 800px;
+  /* border: 1px solid #000; */
+  justify-content: space-between;
+  /* justify-items: center; */
+  /* width: 300px;
+    border: 1px solid #000; */
+  margin: auto;
+  /* margin-top: 20px; */
+  margin-left: 230px;
+}
+.bone {
+  width: 300px;
+  /* border: 1px solid #000; */
+  height: 400px;
+  margin-top: 120px;
+  /* margin-left: 200px; */
+}
+.btwo {
+  width: 300px;
+  /* border: 1px solid #000; */
+  height: 400px;
+  margin-top: 120px;
+  /* margin-left: 200px; */
+}
+.bthree {
+  width: 300px;
+  /* border: 1px solid #000; */
+  height: 400px;
+  margin-top: 120px;
+  /* margin-left: 200px; */
+}
+
+.blogo {
+}
+#i {
+  width: 40%;
+  height: 100%;
+  border: 1px solid #5f497a;
+  border-radius: 50%;
+  position: relative;
+  top: 10px;
+  left: 95px;
+  /* bottom: 20px; */
+  background: #5f497a;
+  /* text-align: center; */
+}
+.main-box h2 {
+  margin-top: 50px;
+  /* text-align: center; */
+  color: #4d3b65;
+  margin-left: 65px;
+}
+.main-box p {
+  text-align: center;
+  width: 200px;
+  margin-left: 50px;
+  margin-top: 10px;
+  color: #c6c6c6;
+}
+.main-box input {
+  width: 130px;
+  /* height: 150px; */
+  padding: 10px;
+  border: 1px solid #000;
+  margin-left: 85px;
+  margin-top: 30px;
+  background-color: #63487c;
+  color: white;
+  font-weight: bold;
+  /* font-size: 15px; */
+}
+#binput1 {
+  background-color: yellow;
+  color: black;
+}
+#binput2 {
+  background-color: yellow;
+  color: black;
+}
+.line {
+  width: 700px;
+  height: 5px;
+  margin-top: 20px;
+  background-color: #c5c0c0;
+  margin-left: 300px;
+}
+.third {
+  width: 1300px;
+  height: 750px;
+  background-color: white;
+  /* margin-top: 40px; */
+  /* position: relative; */
+  /* top:100px; */
+}
+.h21 {
+  /* margin-top:140px; */
+  position: relative;
+  top: 40px;
+  text-align: center;
+  font-size: larger;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.third-box {
+  display: flex;
+}
+.tone {
+  width: 350px;
+  height: 600px;
+  /* border: 1px solid #000; */
+  background-color: #efefef;
+  margin-top: 150px;
+}
+.ttwo {
+  width: 350px;
+  height: 600px;
+  /* border: 1px solid #000; */
+  background-color: #ffe26d;
+  margin-top: 150px;
+}
+.tthree {
+  width: 350px;
+  height: 600px;
+  /* border: 1px solid #000; */
+  background-color: #efefef;
+  margin-top: 150px;
+}
+.tfour {
+  width: 350px;
+  height: 600px;
+  /* border: 1px solid #000; */
+  background-color: #e4e4e4;
+  margin-top: 150px;
+}
+.timg img {
+  position: relative;
+  top: 0px;
+  width: 200px;
+  left: 90px;
+}
+.timg {
+  background-color: #eeeeee;
+}
+.tname {
+  /* text-align: center; */
+  margin-top: 40px;
+  margin-left: 60px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.tp {
+  /* width: 150px; */
+  /* text-align: center; */
+  margin-left: 60px;
+  line-height: 30px;
+  margin-top: 20px;
+  color: #777474;
+}
+.tbutton {
+  font-size: 11px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 60px;
+  margin-top: 30px;
+  background-color: #fff;
+  color: black;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.tbutton1 {
+  font-size: 11px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 60px;
+  margin-top: 30px;
+  background-color: #604a75;
+  color: white;
+  border: 1px solid #604a75;
+  cursor: pointer;
+}
+.four {
+  width: 1300px;
+  height: 850px;
+  background-color: white;
+}
+.fh {
+  text-align: center;
+  /* margin-top: 50px; */
+  padding-top: 60px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.fbox {
+  display: block;
+  margin-left: 200px;
+}
+.fsp {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.fc {
+  line-height: 50px;
+  width: 200px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+.ff {
+  /* line-height: 50px; */
+  width: 200px;
+  text-align: center;
+  color: #c6c6c6;
+  margin-top: 20px;
+}
+.fb {
+  text-align: center;
+  margin-left: 25px;
+  margin-top: 20px;
+  background-color: blueviolet;
+  color: white;
+  width: 150px;
+  cursor: pointer;
+}
+.fbox {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  margin-top: 50px;
+  margin-left: 250px;
+  cursor: pointer;
+}
+.fb1 {
+  text-align: center;
+  margin-left: 25px;
+  margin-top: 20px;
+  background-color: yellow;
+  color: black;
+  width: 150px;
+  cursor: pointer;
+}
+.fb2 {
+  text-align: center;
+  margin-left: 25px;
+  margin-top: 20px;
+  background-color: yellow;
+  color: black;
+  width: 150px;
+  cursor: pointer;
+}
+.five {
+  width: 1300px;
+  height: 300px;
+  background-color: rgba(59, 66, 94, 255);
+}
+.fiveh {
+  text-align: center;
+  position: relative;
+  top: -155px;
+  padding: 40px;
+  background-color: rgba(59, 66, 94, 255);
+  color: white;
+  height: 200px;
+}
+.youtube {
+  position: relative;
+  top: -350px;
+}
+.fivebox {
+  display: flex;
+  justify-content: space-between;
+}
+.six {
+  width: 1300px;
+  height: 850px;
+  background-color: white;
+}
+.sixhe {
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+.sixone {
+  width: 300px;
+  /* border: 1px solid #000; */
+  position: relative;
+  top: 100px;
+  left: 100px;
+  text-align: center;
+}
+.sixone img {
+  position: relative;
+  top: -0px;
+  left: 0px;
+  /* border: 1px solid #000; */
+  border-radius: 100%;
+  cursor: pointer;
+  /* bottom: 20px; */
+}
+.sixone h2 {
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+.sixone h3 {
+  margin-top: 20px;
+  color: #eeeeee;
+  font-weight: bold;
+}
+.sixbox1 {
+  display: flex;
+  width: 1100px;
+  justify-content: space-between;
+}
+.sixbox2 {
+  display: flex;
+  width: 1100px;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.seven {
+  width: 1300px;
+  height: 850px;
+  background-color: #eeeeee;
+}
+.seven img {
+  width: 270px;
+  /* height: 300px; */
+}
+.sevenbox {
+  display: flex;
+  justify-content: space-between;
+  width: 1150px;
+  margin-top: 50px;
+}
+.sevenbox1 {
+  display: flex;
+  justify-content: space-between;
+  width: 1150px;
+  cursor: pointer;
+}
+.sevenh h1 {
+  text-align: center;
+  /* padding: 100px; */
+  position: relative;
+  top: 80px;
+  cursor: pointer;
+}
+.eight {
+  width: 1300px;
+  height: 450px;
+  background-color: #eeeeee;
+  background-image: url(./photo-1422464804701-7d8356b3a42f.jpg);
+  background-repeat: no-repeat;
+  /* width: 1200px; */
+  background-size: 1300px;
+}
+.eighth {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+.eightem input {
+  /* padding: 100px; */
+  width: 400px;
+  height: 40px;
+  /* margin-top: 40px; */
+  position: relative;
+  top: 44.25px;
+  font-size: 30px;
+  /* left: 100px; */
+  /* border: 1px solid #000; */
+}
+.eightss button {
+  margin-left: 401px;
+  background-color: yellow;
+  color: #000;
+  cursor: pointer;
+}
+.eightmix {
+  margin-left: 400px;
+  margin-top: 50px;
+}
+.nine {
+  width: 1300px;
+  height: 850px;
+  background-color: white;
+}
+.nineh {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 100px;
+}
+.nineone {
+  width: 400px;
+  height: 500px;
+  /* border: 1px solid #000; */
+  text-align: center;
+}
+.nineone img {
+  width: 300px;
+  position: relative;
+  top: 10px;
+  left: -0px;
+}
+.nineone h2 {
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+.nineone h4 {
+  margin-top: 20px;
+  color: #d6e3ef;
+}
+.nineone p {
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.nineone button {
+  margin-top: 20px;
+  background-color: yellow;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid yellow;
+}
+.ninebox {
+  display: flex;
+  margin-left: 40px;
+}
+#nineb1 {
+  background-color: #eeeeee;
+  border: 1px solid #eeeeee;
+}
+#nineb2 {
+  background-color: #eeeeee;
+  border: 1px solid #eeeeee;
+}
+.ten {
+  width: 1300px;
+  height: 450px;
+  background-color: rgb(245, 245, 10);
+  /* display: flex; */
+}
+.tenbox {
+  display: flex;
+}
+.con {
+  margin-left: 50px;
+}
+.con h2 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+.con label {
+  font-size: 20px;
+}
+.con input {
+  margin-left: 100px;
+  font-size: 30px;
+  margin-top: 20px;
+}
+#connu {
+  margin-left: 85px;
+}
+.con textarea {
+  margin-top: 20px;
+  margin-left: 80px;
+  /* font-size: 30px; */
+}
+#mess {
+  position: relative;
+  top: -120px;
+}
+.con button {
+  margin-left: 150px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: purple;
+  color: white;
+  border: 1px solid purple;
+  font-weight: bold;
+}
+.eleven {
+  width: 1300px;
+  height: 200px;
+  background-color: white;
+}
+.icons {
+  /* margin: auto; */
+  margin-left: 450px;
+  /* margin-top: 200px; */
+  padding: 80px;
+}
+.icons a {
+  text-decoration: none;
+  color: white;
+}
+.icons ion-icon {
+  color: black;
+  font-size: 30px;
+  /* border: 1px solid red; */
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.4s ease;
+}
+.icons ion-icon:hover {
+  color: #ff7200;
+}
